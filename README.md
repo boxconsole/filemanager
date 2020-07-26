@@ -1,38 +1,37 @@
-# PHP File Manager
-
-A good solution for managing files and folders for developers who can't access their site over SSH or FTP.
-
+# PHP File Manager Russian Translation
+### Русский перевод
+Хорошее решение для управления файлами и папками для разработчиков, которые не могут получить доступ к своему сайту через SSH или FTP.
 ![PHP File Manager](https://raw.github.com/alexantr/filemanager/master/phpfm.png)
 
-**WARNING! Do not use this script as a regular file manager in public area.
-After all actions you must delete this script from the server.**
+**ПРЕДУПРЕЖДЕНИЕ! Не используйте этот скрипт как обычный файловый менеджер в публичных местах.
+После всех действий вы должны удалить этот скрипт с сервера. **
 
-## Requirements
+## Требования
 
-- PHP 5.2 or higher.
-- [Zip extension](http://php.net/manual/en/book.zip.php) for zip and unzip actions.
-- Fileinfo, iconv and mbstring extensions are strongly recommended.
+- PHP 5.2 или выше.
+- [Расширение Zip] (http://php.net/manual/en/book.zip.php) для действий ZIP и распаковать.
+- Настоятельно рекомендуется использовать расширения Fileinfo, iconv и mbstring.
 
-## How to use
+## Как пользоваться
 
-Download ZIP with the latest version from the master branch.
+Загрузите ZIP с последней версией из главной ветки.
 
-Copy **filemanager.php** to your website folder and open it in a web browser
-(e.g. http://yoursite/any_path/filemanager.php).
+Скопируйте **filemanager.php** в папку вашего сайта и откройте его в веб-браузере
+(например, http: //yoursite/any_path/filemanager.php).
 
-## Security
+## Безопасность
 
-Default username/password: **fm_admin**/**fm_admin**
+Имя пользователя / пароль по умолчанию: ** fm_admin ** / ** fm_admin **
 
 **Warning! Please set your own username and password in `$auth_users` before use.**
 
-To enable or disable authentication set `$use_auth` to `true` or `false`.
+Чтобы включить или отключить аутентификацию, установите для `$ use_auth` значение` true` или `false`.
 
-*For better security enable HTTP Authentication in your web server.*
+*Для большей безопасности включите HTTP-аутентификацию на вашем веб-сервере.*
 
-## Embedding
+## Встраивание
 
-You can include file manager in another script. Just define `FM_EMBED` and other necessary constants. Example:
+Вы можете включить файловый менеджер в другой скрипт. Просто определите `FM_EMBED` и другие необходимые константы. Пример:
 
 ```php
 class SomeController
@@ -46,28 +45,28 @@ class SomeController
 }
 ```
 
-Supported constants:
+Поддерживаемые константы:
 
-- `FM_ROOT_PATH` - default is `$_SERVER['DOCUMENT_ROOT']`
-- `FM_ROOT_URL` - default is `'http(s)://site.domain/'`
-- `FM_SELF_URL` - default is `'http(s)://site.domain/' . $_SERVER['PHP_SELF']`
-- `FM_ICONV_INPUT_ENC` - default is `'CP1251'`
-- `FM_USE_HIGHLIGHTJS` - default is `true`
-- `FM_HIGHLIGHTJS_STYLE` - default is `'vs'`
-- `FM_DATETIME_FORMAT` - default is `'d.m.y H:i'`
+- `FM_ROOT_PATH` - по умолчанию установлено значение `'$_SERVER['DOCUMENT_ROOT']'`
+- `FM_ROOT_URL` - по умолчанию `'http(s)://site.domain/'`
+- `FM_SELF_URL` - по умолчанию `'http(s)://site.domain/' . $_SERVER['PHP_SELF']`
+- `FM_ICONV_INPUT_ENC` - по умолчанию установлено значение` 'CP1251'`
+- `FM_USE_HIGHLIGHTJS` - по умолчанию установлено значение` true`
+- `FM_HIGHLIGHTJS_STYLE` - по умолчанию установлено значение` 'vs'`
+- `FM_DATETIME_FORMAT` - по умолчанию установлено` 'd.m.y H: i'`
 
-## Alternatives
+## Альтернативы
 
-- [Tiny PHP File Manager](https://github.com/prasathmani/tinyfilemanager) with search and file editor
-- [simple php filemanager](https://github.com/jcampbell1/simple-file-manager)
+- [Tiny PHP File Manager] (https://github.com/prasathmani/tinyfilemanager) с поиском и редактором файлов
+- [простой php файловый менеджер] (https://github.com/jcampbell1/simple-file-manager)
 
-## Bug tracker
+## Баг трекер
 
-If you have any issues with file manager, you may report them on
-[Issue tracker](https://github.com/alexantr/filemanager/issues).
+Если у вас есть какие-либо проблемы с файловым менеджером, вы можете сообщить о них на
+[Отслеживание проблем] (https://github.com/alexantr/filemanager/issues).
 
-## License
+## Лицензия
 
-This software is released under the MIT license.
+Это программное обеспечение выпущено под лицензией MIT.
 
-Icons by [Yusuke Kamiyamane](http://p.yusukekamiyamane.com/).
+Иконки типов файлов от [Юсуке Камиямане] (http://p.yusukekamiyamane.com/).
