@@ -9,7 +9,7 @@
 ## Требования
 
 - PHP 5.2 или выше.
-- [Расширение Zip] (http://php.net/manual/en/book.zip.php) для действий ZIP и распаковать.
+- [Расширение Zip](http://php.net/manual/en/book.zip.php) для действий ZIP и распаковать.
 - Настоятельно рекомендуется использовать расширения Fileinfo, iconv и mbstring.
 
 ## Как пользоваться
@@ -17,7 +17,7 @@
 Загрузите ZIP с последней версией из главной ветки.
 
 Скопируйте **filemanager.php** в папку вашего сайта и откройте его в веб-браузере
-(например, http: //yoursite/any_path/filemanager.php).
+(например, http://yoursite/any_path/filemanager.php).
 
 ## Безопасность
 
@@ -57,16 +57,16 @@ class SomeController
 
 ## Альтернативы
 
-- [Tiny PHP File Manager] (https://github.com/prasathmani/tinyfilemanager) с поиском и редактором файлов
-- [простой php файловый менеджер] (https://github.com/jcampbell1/simple-file-manager)
+- [Tiny PHP File Manager](https://github.com/prasathmani/tinyfilemanager) с поиском и редактором файлов
+- [простой php файловый менеджер](https://github.com/jcampbell1/simple-file-manager)
 
 ## Баг трекер
 
 Если у вас есть какие-либо проблемы с файловым менеджером, вы можете сообщить о них на
-[Отслеживание проблем] (https://github.com/alexantr/filemanager/issues).
+[Отслеживание проблем](https://github.com/alexantr/filemanager/issues).
 
 ## Лицензия
 
 Это программное обеспечение выпущено под лицензией MIT.
 
-Иконки типов файлов от [Юсуке Камиямане] (http://p.yusukekamiyamane.com/).
+Иконки типов файлов от [Юсуке Камиямане](http://p.yusukekamiyamane.com/).
